@@ -137,8 +137,7 @@ components:
             type: object
             properties:
                 ID:
-                    type: integer
-                    format: int64
+                    type: string
                 UID:
                     type: string
                 userName:
@@ -170,8 +169,7 @@ components:
             type: object
             properties:
                 ID:
-                    type: integer
-                    format: int64
+                    type: string
                 UID:
                     type: string
                 userName:
@@ -205,8 +203,7 @@ components:
             type: object
             properties:
                 ID:
-                    type: integer
-                    format: int64
+                    type: string
                 lang:
                     type: string
                 sideModeColor:
