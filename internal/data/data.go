@@ -12,11 +12,11 @@ import (
 	"gorm.io/gorm"
 	"gorm.io/gorm/schema"
 
-	"github.com/xiaohubai/go-grpc-layout/configs/conf"
-	"github.com/xiaohubai/go-grpc-layout/internal/biz"
-	"github.com/xiaohubai/go-grpc-layout/internal/consts"
-	"github.com/xiaohubai/go-grpc-layout/internal/data/gen"
-	"github.com/xiaohubai/go-grpc-layout/internal/data/model"
+	"github.com/EZ4BRUCE/go-grpc-layout/configs/conf"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/biz"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/consts"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/data/gen"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/data/model"
 )
 
 // ProviderSet is data providers.

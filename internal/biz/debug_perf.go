@@ -4,11 +4,11 @@ import (
 	"errors"
 	"time"
 
+	v1 "github.com/EZ4BRUCE/go-grpc-layout/api/http/v1"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/data/model"
 	"github.com/gin-gonic/gin"
-	v1 "github.com/xiaohubai/go-grpc-layout/api/http/v1"
-	"github.com/xiaohubai/go-grpc-layout/internal/data/model"
 
-	"github.com/xiaohubai/go-grpc-layout/pkg/jwt"
+	"github.com/EZ4BRUCE/go-grpc-layout/pkg/jwt"
 )
 
 // DebugPerf 性能测试

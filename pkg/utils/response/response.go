@@ -5,8 +5,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/xiaohubai/go-grpc-layout/internal/ecode"
-	"github.com/xiaohubai/go-grpc-layout/pkg/tracing"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/ecode"
+	"github.com/EZ4BRUCE/go-grpc-layout/pkg/tracing"
 )
 
 type Body struct {

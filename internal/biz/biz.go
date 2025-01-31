@@ -6,8 +6,8 @@ import (
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/google/wire"
 
-	pbAny "github.com/xiaohubai/go-grpc-layout/api/any/v1"
-	"github.com/xiaohubai/go-grpc-layout/internal/data/model"
+	pbAny "github.com/EZ4BRUCE/go-grpc-layout/api/any/v1"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/data/model"
 )
 
 // ProviderSet is biz providers.

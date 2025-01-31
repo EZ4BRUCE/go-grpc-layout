@@ -3,15 +3,14 @@ package holmes
 import (
 	"context"
 	"fmt"
-	"time"
 
 	"github.com/spf13/viper"
 	"mosn.io/holmes"
 	mlog "mosn.io/pkg/log"
 
-	"github.com/xiaohubai/go-grpc-layout/configs/conf"
-	"github.com/xiaohubai/go-grpc-layout/internal/consts"
-	"github.com/xiaohubai/go-grpc-layout/pkg/email"
+	"github.com/EZ4BRUCE/go-grpc-layout/configs/conf"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/consts"
+	"github.com/EZ4BRUCE/go-grpc-layout/pkg/email"
 )
 
 // NewRegisterHolmes 异常捕获
@@ -44,10 +43,9 @@ func RegisterHolmes(c *conf.Holmes) error {
 
 type ReporterImpl struct{}
 
-func (r *ReporterImpl) Report(pType string, filename string, reason holmes.ReasonType, eventID string, sampleTime time.Time, pprofBytes []byte, scene holmes.Scene) error {
-
-	msg := fmt.Sprintf("pType:%s filename:%s", pType, filename)
-	filePath := fmt.Sprintf("%s/%s", consts.PwdPath, filename)
+func (r *ReporterImpl) Report(pType string, content []byte, eventID string, scene string) error {
+	msg := fmt.Sprintf("pType:%s eventID:%s", pType, eventID)
+	filePath := fmt.Sprintf("%s/holmes_%s.pprof", consts.PwdPath, eventID)
 	email.SendWarnWithFile(context.Background(), consts.EmailTitlePprof, filePath, msg)
 	return nil
 }

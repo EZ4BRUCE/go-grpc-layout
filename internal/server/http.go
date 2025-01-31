@@ -8,15 +8,15 @@ import (
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/go-kratos/kratos/v2/transport/http"
 
+	"github.com/EZ4BRUCE/go-grpc-layout/configs/conf"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/spf13/viper"
 	swaggerFiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
-	"github.com/xiaohubai/go-grpc-layout/configs/conf"
 
-	"github.com/xiaohubai/go-grpc-layout/internal/consts"
-	"github.com/xiaohubai/go-grpc-layout/internal/service"
-	m "github.com/xiaohubai/go-grpc-layout/pkg/middleware"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/consts"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/service"
+	m "github.com/EZ4BRUCE/go-grpc-layout/pkg/middleware"
 )
 
 // NewHTTPServer new a HTTP server.

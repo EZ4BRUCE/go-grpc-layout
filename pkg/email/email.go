@@ -12,11 +12,11 @@ import (
 	"github.com/jordan-wright/email"
 	"golang.org/x/sync/errgroup"
 
-	pbAny "github.com/xiaohubai/go-grpc-layout/api/any/v1"
-	"github.com/xiaohubai/go-grpc-layout/configs/conf"
-	"github.com/xiaohubai/go-grpc-layout/internal/consts"
-	"github.com/xiaohubai/go-grpc-layout/pkg/tracing"
-	"github.com/xiaohubai/go-grpc-layout/pkg/utils/html"
+	pbAny "github.com/EZ4BRUCE/go-grpc-layout/api/any/v1"
+	"github.com/EZ4BRUCE/go-grpc-layout/configs/conf"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/consts"
+	"github.com/EZ4BRUCE/go-grpc-layout/pkg/tracing"
+	"github.com/EZ4BRUCE/go-grpc-layout/pkg/utils/html"
 )
 
 func Send(topic, title, filePath, htmlText string) (err error) {

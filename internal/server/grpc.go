@@ -10,9 +10,9 @@ import (
 	"github.com/go-kratos/kratos/v2/transport/grpc"
 	"github.com/spf13/viper"
 
-	v1 "github.com/xiaohubai/go-grpc-layout/api/grpc/v1"
-	"github.com/xiaohubai/go-grpc-layout/configs/conf"
-	"github.com/xiaohubai/go-grpc-layout/internal/service"
+	v1 "github.com/EZ4BRUCE/go-grpc-layout/api/grpc/v1"
+	"github.com/EZ4BRUCE/go-grpc-layout/configs/conf"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/service"
 )
 
 // NewGRPCServer new a gRPC server.

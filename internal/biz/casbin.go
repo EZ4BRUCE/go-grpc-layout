@@ -6,10 +6,10 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	pbAny "github.com/xiaohubai/go-grpc-layout/api/any/v1"
-	v1 "github.com/xiaohubai/go-grpc-layout/api/http/v1"
-	"github.com/xiaohubai/go-grpc-layout/internal/data/model"
-	"github.com/xiaohubai/go-grpc-layout/pkg/jwt"
+	pbAny "github.com/EZ4BRUCE/go-grpc-layout/api/any/v1"
+	v1 "github.com/EZ4BRUCE/go-grpc-layout/api/http/v1"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/data/model"
+	"github.com/EZ4BRUCE/go-grpc-layout/pkg/jwt"
 )
 
 // GetCasbinList 获取权限列表

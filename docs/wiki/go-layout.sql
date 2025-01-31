@@ -179,6 +179,6 @@ CREATE TABLE `user`  (
 -- ----------------------------
 -- Records of user
 -- ----------------------------
-INSERT INTO `user` VALUES (1, '000000001', 'admin', '小不点', '前进的苦，是在于人要逼着自己开辟新的痛苦领域', 'ce8c73b00381ac97ceba4feaf6f67b4d', '+t!dV$', '2006-01-02', 'https://i.postimg.cc/15038Rxn/4.png', '0', '管理员', '13269110806', 'xiaohubai', 'xiaohubai@outlook.com', 0, '2023-06-25 21:39:42', '2023-06-25 21:52:22', NULL, 'admin', 'admin');
+INSERT INTO `user` VALUES (1, '000000001', 'admin', '小不点', '前进的苦，是在于人要逼着自己开辟新的痛苦领域', 'ce8c73b00381ac97ceba4feaf6f67b4d', '+t!dV$', '2006-01-02', 'https://i.postimg.cc/15038Rxn/4.png', '0', '管理员', '13269110806', 'EZ4BRUCE', 'EZ4BRUCE@outlook.com', 0, '2023-06-25 21:39:42', '2023-06-25 21:52:22', NULL, 'admin', 'admin');
 
 SET FOREIGN_KEY_CHECKS = 1;

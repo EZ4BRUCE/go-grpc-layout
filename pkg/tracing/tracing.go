@@ -11,7 +11,7 @@ import (
 	semConv "go.opentelemetry.io/otel/semconv/v1.7.0"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/xiaohubai/go-grpc-layout/configs/conf"
+	"github.com/EZ4BRUCE/go-grpc-layout/configs/conf"
 )
 
 func RegisterTracer(endpoint string, g *conf.Global) error {

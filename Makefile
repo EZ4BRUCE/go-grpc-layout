@@ -25,7 +25,6 @@ init:
 	go install github.com/google/wire/cmd/wire@latest
 	go install github.com/envoyproxy/protoc-gen-validate@latest
 	go install github.com/google/gnostic/cmd/protoc-gen-openapi@latest
-	sh ./scripts/protoc.sh
 
 .PHONY: api
 # generate api proto
@@ -54,16 +53,21 @@ goimports:
 .PHONY: build
 # generate build
 build:
-	go build -o server main.go
+	mkdir -p bin/ && go build -ldflags "-X main.Version=$(VERSION)" -o ./bin/ ./...
+
+.PHONY: generate
+# generate
+generate:
+	go generate ./...
+	go mod tidy
 
 .PHONY: sql
 # generate sql
 sql:
 	gentool -dsn "root:123456@tcp(127.0.0.1:3306)/go-layout?charset=utf8mb4&parseTime=True&loc=Local" --modelPkgName="./internal/data/model" -outPath="./internal/data/gen"
 
-.PHONY: configs
-# generate configs
-configs:
+.PHONY: config
+config:
 	kratos proto client configs/conf/conf.proto
 	rm -rf openapi.yaml
 

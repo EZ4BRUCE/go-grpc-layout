@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package api.grpc.v1;
 
-option go_package = "github.com/xiaohubai/go-grpc-layout/api/grpc/v1;v1";
+option go_package = "github.com/EZ4BRUCE/go-grpc-layout/api/grpc/v1;v1";
 option java_multiple_files = true;
 option java_package = "api.grpc.v1";
 
@@ -19,12 +19,12 @@ option (openapi.v3.document) = {
     description: "Description from annotation";
     contact: {
       name: "Contact Name";
-      url: "https://github.com/xiaohubai/go-grpc-layout";
-      email: "xiaohubai@outlook.com";
+      url: "https://github.com/EZ4BRUCE/go-grpc-layout";
+      email: "EZ4BRUCE@outlook.com";
     }
     license: {
       name: "MIT License";
-      url: "https://github.com/xiaohubai/go-grpc-layout/LICENSE";
+      url: "https://github.com/EZ4BRUCE/go-grpc-layout/LICENSE";
     }
   }
   servers: [

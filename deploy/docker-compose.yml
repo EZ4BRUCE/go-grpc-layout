@@ -47,7 +47,7 @@ services:
         ipv4_address: 172.21.0.12
 
   #### consul ####
-  ### 认证访问设置（https://xiaohubai.github.io/docs/docker-compose）
+  ### 认证访问设置（https://EZ4BRUCE.github.io/docs/docker-compose）
   consul:
     image: bitnami/consul:1.18.0
     container_name: consul

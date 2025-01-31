@@ -1,4 +1,4 @@
-package cmd
+package main
 
 import (
 	"github.com/go-kratos/kratos/v2"
@@ -8,13 +8,13 @@ import (
 	"github.com/go-kratos/kratos/v2/transport/http"
 	_ "go.uber.org/automaxprocs"
 
-	"github.com/xiaohubai/go-grpc-layout/configs/conf"
-	_ "github.com/xiaohubai/go-grpc-layout/internal/biz" //init biz
-	"github.com/xiaohubai/go-grpc-layout/pkg/holmes"
-	"github.com/xiaohubai/go-grpc-layout/pkg/kafka"
-	"github.com/xiaohubai/go-grpc-layout/pkg/tracing"
-	"github.com/xiaohubai/go-grpc-layout/pkg/viper"
-	"github.com/xiaohubai/go-grpc-layout/pkg/zap"
+	"github.com/EZ4BRUCE/go-grpc-layout/configs/conf"
+	_ "github.com/EZ4BRUCE/go-grpc-layout/internal/biz" //init biz
+	"github.com/EZ4BRUCE/go-grpc-layout/pkg/holmes"
+	"github.com/EZ4BRUCE/go-grpc-layout/pkg/kafka"
+	"github.com/EZ4BRUCE/go-grpc-layout/pkg/tracing"
+	"github.com/EZ4BRUCE/go-grpc-layout/pkg/viper"
+	"github.com/EZ4BRUCE/go-grpc-layout/pkg/zap"
 )
 
 func newApp(logger log.Logger, hs *http.Server, gs *grpc.Server, rr registry.Registrar, g *conf.Global) *kratos.App {

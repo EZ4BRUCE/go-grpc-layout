@@ -3,8 +3,8 @@ package data
 import (
 	"context"
 
-	pbAny "github.com/xiaohubai/go-grpc-layout/api/any/v1"
-	"github.com/xiaohubai/go-grpc-layout/internal/data/model"
+	pbAny "github.com/EZ4BRUCE/go-grpc-layout/api/any/v1"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/data/model"
 )
 
 func (d *dataRepo) ListAllUser(ctx context.Context, u *model.User, p *pbAny.PageRequest) (users []*model.User, total int64, err error) {

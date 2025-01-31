@@ -3,10 +3,10 @@ package service
 import (
 	"github.com/gin-gonic/gin"
 
-	"github.com/xiaohubai/go-grpc-layout/internal/consts"
-	"github.com/xiaohubai/go-grpc-layout/internal/ecode"
-	"github.com/xiaohubai/go-grpc-layout/pkg/consul"
-	"github.com/xiaohubai/go-grpc-layout/pkg/utils/response"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/consts"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/ecode"
+	"github.com/EZ4BRUCE/go-grpc-layout/pkg/consul"
+	"github.com/EZ4BRUCE/go-grpc-layout/pkg/utils/response"
 )
 
 func (s *HttpService) GetDictList(c *gin.Context) {

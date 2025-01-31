@@ -3,11 +3,11 @@ package kafka
 import (
 	"context"
 
-	"github.com/Shopify/sarama"
+	"github.com/IBM/sarama"
 
-	"github.com/xiaohubai/go-grpc-layout/configs/conf"
-	"github.com/xiaohubai/go-grpc-layout/internal/consts"
-	"github.com/xiaohubai/go-grpc-layout/pkg/email"
+	"github.com/EZ4BRUCE/go-grpc-layout/configs/conf"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/consts"
+	"github.com/EZ4BRUCE/go-grpc-layout/pkg/email"
 )
 
 func RegisterConsumer(nodes []*conf.Kafka_Consumer) error {

@@ -5,11 +5,11 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/Shopify/sarama"
+	"github.com/IBM/sarama"
 
-	"github.com/xiaohubai/go-grpc-layout/internal/consts"
-	"github.com/xiaohubai/go-grpc-layout/pkg/kafka"
-	"github.com/xiaohubai/go-grpc-layout/pkg/metric"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/consts"
+	"github.com/EZ4BRUCE/go-grpc-layout/pkg/kafka"
+	"github.com/EZ4BRUCE/go-grpc-layout/pkg/metric"
 )
 
 type OperationRecordReportES struct {

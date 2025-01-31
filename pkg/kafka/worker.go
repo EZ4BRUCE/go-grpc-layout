@@ -5,9 +5,9 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/Shopify/sarama"
+	"github.com/IBM/sarama"
 
-	"github.com/xiaohubai/go-grpc-layout/configs/conf"
+	"github.com/EZ4BRUCE/go-grpc-layout/configs/conf"
 )
 
 var (

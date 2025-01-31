@@ -5,7 +5,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/xiaohubai/go-grpc-layout/configs/conf"
+	"github.com/EZ4BRUCE/go-grpc-layout/configs/conf"
 )
 
 func Cors(cors *conf.Cors) gin.HandlerFunc {

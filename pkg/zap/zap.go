@@ -11,7 +11,7 @@ import (
 	"go.uber.org/zap/zapcore"
 	"gopkg.in/natefinch/lumberjack.v2"
 
-	"github.com/xiaohubai/go-grpc-layout/configs/conf"
+	"github.com/EZ4BRUCE/go-grpc-layout/configs/conf"
 )
 
 func New(c *conf.Zap, g *conf.Global) (log.Logger, error) {

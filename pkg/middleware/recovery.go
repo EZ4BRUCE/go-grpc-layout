@@ -7,11 +7,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"go.opentelemetry.io/otel/attribute"
 
-	"github.com/xiaohubai/go-grpc-layout/internal/consts"
-	"github.com/xiaohubai/go-grpc-layout/internal/ecode"
-	"github.com/xiaohubai/go-grpc-layout/pkg/email"
-	"github.com/xiaohubai/go-grpc-layout/pkg/tracing"
-	"github.com/xiaohubai/go-grpc-layout/pkg/utils/response"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/consts"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/ecode"
+	"github.com/EZ4BRUCE/go-grpc-layout/pkg/email"
+	"github.com/EZ4BRUCE/go-grpc-layout/pkg/tracing"
+	"github.com/EZ4BRUCE/go-grpc-layout/pkg/utils/response"
 )
 
 func Recovery() gin.HandlerFunc {

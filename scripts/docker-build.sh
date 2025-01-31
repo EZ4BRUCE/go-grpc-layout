@@ -23,6 +23,6 @@ git push origin --tags
 
 APP_NAME=$(cat $CONFIG | grep "appName" | awk -F ":" '{print}' | awk '{gsub(/^\s+|\s+$/," ");print $2}')
 
-Image="xiaohubai/$APP_NAME:$New_TAG-$GIT_BRACH-$GIT_COMMIT"
+Image="EZ4BRUCE/$APP_NAME:$New_TAG-$GIT_BRACH-$GIT_COMMIT"
 docker build . -t $Image
 docker push $Image

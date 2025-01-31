@@ -14,7 +14,7 @@ import (
 	_ "github.com/spf13/viper/remote"
 	"google.golang.org/grpc"
 
-	"github.com/xiaohubai/go-grpc-layout/configs/conf"
+	"github.com/EZ4BRUCE/go-grpc-layout/configs/conf"
 )
 
 func NewConsulClient(remoteHost, remoteToken string) (*api.Client, error) {

@@ -3,18 +3,18 @@
 
 // The build tag makes sure the stub is not built in the final build.
 
-package cmd
+package main
 
 import (
 	"github.com/go-kratos/kratos/v2"
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/google/wire"
 
-	"github.com/xiaohubai/go-grpc-layout/configs/conf"
-	"github.com/xiaohubai/go-grpc-layout/internal/biz"
-	"github.com/xiaohubai/go-grpc-layout/internal/data"
-	"github.com/xiaohubai/go-grpc-layout/internal/server"
-	"github.com/xiaohubai/go-grpc-layout/internal/service"
+	"github.com/EZ4BRUCE/go-grpc-layout/configs/conf"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/biz"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/data"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/server"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/service"
 )
 
 // wireApp init kratos application.

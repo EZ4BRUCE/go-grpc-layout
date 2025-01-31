@@ -16,7 +16,7 @@ import (
 
 	"gorm.io/plugin/dbresolver"
 
-	"github.com/xiaohubai/go-grpc-layout/internal/data/model"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/data/model"
 )
 
 func newDebugPerf(db *gorm.DB, opts ...gen.DOOption) debugPerf {

@@ -30,7 +30,7 @@ jwt:
   signingKey: some_jwt_sign_key
   expiresTime: 604800
   bufferTime: 86400
-  issuer: xiaohubai@outlook.com
+  issuer: EZ4BRUCE@outlook.com
 trace:
   endpoint: http://127.0.0.1:14268/api/traces
 
@@ -94,7 +94,7 @@ email:
   topics:
     - name: warn
       subject: "告警"
-      to: [xiaohubai@outlook.com]
+      to: [EZ4BRUCE@outlook.com]
 
 holmes:
   path: ./tmp

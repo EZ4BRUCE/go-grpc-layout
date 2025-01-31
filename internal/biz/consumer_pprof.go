@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Shopify/sarama"
+	"github.com/IBM/sarama"
 
-	"github.com/xiaohubai/go-grpc-layout/pkg/kafka"
+	"github.com/EZ4BRUCE/go-grpc-layout/pkg/kafka"
 )
 
 type PprofES struct {

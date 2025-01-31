@@ -6,7 +6,7 @@ COPY . /app
 RUN export GOPROXY=https://goproxy.io && make build
 
 FROM debian:stable-slim
-LABEL MAINTAINER="xiaohubai@outlook.com"
+LABEL MAINTAINER="EZ4BRUCE@outlook.com"
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     ca-certificates  \

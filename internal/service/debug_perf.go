@@ -3,11 +3,11 @@ package service
 import (
 	"net/http"
 
+	v1 "github.com/EZ4BRUCE/go-grpc-layout/api/http/v1"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/ecode"
+	"github.com/EZ4BRUCE/go-grpc-layout/pkg/utils/request"
+	"github.com/EZ4BRUCE/go-grpc-layout/pkg/utils/response"
 	"github.com/gin-gonic/gin"
-	v1 "github.com/xiaohubai/go-grpc-layout/api/http/v1"
-	"github.com/xiaohubai/go-grpc-layout/internal/ecode"
-	"github.com/xiaohubai/go-grpc-layout/pkg/utils/request"
-	"github.com/xiaohubai/go-grpc-layout/pkg/utils/response"
 )
 
 func (s *HttpService) DebugPerf(c *gin.Context) {

@@ -9,12 +9,12 @@ import (
 	"github.com/spf13/cast"
 	"go.opentelemetry.io/otel/attribute"
 
-	v1 "github.com/xiaohubai/go-grpc-layout/api/http/v1"
-	"github.com/xiaohubai/go-grpc-layout/internal/consts"
-	"github.com/xiaohubai/go-grpc-layout/internal/data/model"
-	pJwt "github.com/xiaohubai/go-grpc-layout/pkg/jwt"
-	"github.com/xiaohubai/go-grpc-layout/pkg/tracing"
-	"github.com/xiaohubai/go-grpc-layout/pkg/utils"
+	v1 "github.com/EZ4BRUCE/go-grpc-layout/api/http/v1"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/consts"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/data/model"
+	pJwt "github.com/EZ4BRUCE/go-grpc-layout/pkg/jwt"
+	"github.com/EZ4BRUCE/go-grpc-layout/pkg/tracing"
+	"github.com/EZ4BRUCE/go-grpc-layout/pkg/utils"
 )
 
 // Login 用户登录

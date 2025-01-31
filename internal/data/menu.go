@@ -3,7 +3,7 @@ package data
 import (
 	"context"
 
-	"github.com/xiaohubai/go-grpc-layout/internal/data/model"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/data/model"
 )
 
 func (d *dataRepo) ListAllMenu(ctx context.Context) (menuList []*model.Menu, err error) {
@@ -38,14 +38,14 @@ func (d *dataRepo) UpdateRoleMenu(ctx context.Context, m *model.Menu) (err error
 		"name":          m.Name,
 		"redirect":      m.Redirect,
 		"component":     m.Component,
-		"parent_id":      m.ParentID,
+		"parent_id":     m.ParentID,
 		"role_id_group": m.RoleIDGroup,
 		"title":         m.Title,
 		"icon":          m.Icon,
 		"hidden":        m.Hidden,
-		"keep_alive":     m.KeepAlive,
+		"keep_alive":    m.KeepAlive,
 		"sort":          m.Sort,
-		"update_user":    m.UpdateUser,
+		"update_user":   m.UpdateUser,
 	})
 	return
 }

@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/xiaohubai/go-grpc-layout/internal/data/model"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/data/model"
 	"golang.org/x/sync/errgroup"
 	"gorm.io/gorm"
 )

@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/xiaohubai/go-grpc-layout/internal/data/model"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/data/model"
 )
 
 func (d *dataRepo) UpdateSetting(ctx context.Context, s *model.Setting) error {

@@ -7,11 +7,11 @@ info:
     description: Description from annotation
     contact:
         name: Contact Name
-        url: https://github.com/xiaohubai/go-grpc-layout
-        email: xiaohubai@outlook.com
+        url: https://github.com/EZ4BRUCE/go-grpc-layout
+        email: EZ4BRUCE@outlook.com
     license:
         name: MIT License
-        url: https://github.com/xiaohubai/go-grpc-layout/LICENSE
+        url: https://github.com/EZ4BRUCE/go-grpc-layout/LICENSE
     version: v1.0.0
 servers:
     - url: http://127.0.0.1:8000

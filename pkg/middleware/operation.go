@@ -10,12 +10,12 @@ import (
 	"github.com/gin-gonic/gin"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/xiaohubai/go-grpc-layout/internal/consts"
-	"github.com/xiaohubai/go-grpc-layout/pkg/email"
-	"github.com/xiaohubai/go-grpc-layout/pkg/jwt"
-	"github.com/xiaohubai/go-grpc-layout/pkg/kafka"
-	"github.com/xiaohubai/go-grpc-layout/pkg/metric"
-	"github.com/xiaohubai/go-grpc-layout/pkg/utils"
+	"github.com/EZ4BRUCE/go-grpc-layout/internal/consts"
+	"github.com/EZ4BRUCE/go-grpc-layout/pkg/email"
+	"github.com/EZ4BRUCE/go-grpc-layout/pkg/jwt"
+	"github.com/EZ4BRUCE/go-grpc-layout/pkg/kafka"
+	"github.com/EZ4BRUCE/go-grpc-layout/pkg/metric"
+	"github.com/EZ4BRUCE/go-grpc-layout/pkg/utils"
 )
 
 // Operation 记录请求流水
