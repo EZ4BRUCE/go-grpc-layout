@@ -1,3 +1,5 @@
+http proto 定义请参考：https://cloud.google.com/endpoints/docs/grpc-service-config/reference/rpc/google.api#httprule
+
 ## 目录结构
 - gin 作为前端最直接的交互用于处理数据,图片,视频,文件请求等特殊请求处理.
 - grpc 作为服务端为别人提供服务;作为客户端请求别人的微服务使用.
