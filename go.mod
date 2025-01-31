@@ -42,9 +42,9 @@ require (
 	google.golang.org/protobuf v1.35.2
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 	gorm.io/driver/mysql v1.4.7
-	gorm.io/gen v0.3.21
-	gorm.io/gorm v1.24.6
-	gorm.io/plugin/dbresolver v1.4.1
+	gorm.io/gen v0.3.26
+	gorm.io/gorm v1.25.9
+	gorm.io/plugin/dbresolver v1.5.0
 	mosn.io/holmes v1.0.2
 	mosn.io/pkg v0.0.0-20211217101631-d914102d1baf
 )
@@ -185,8 +185,8 @@ require (
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	gorm.io/datatypes v1.0.7 // indirect
-	gorm.io/driver/postgres v1.4.4 // indirect
+	gorm.io/datatypes v1.1.1-0.20230130040222-c43177d3cf8c // indirect
+	gorm.io/driver/postgres v1.4.5 // indirect
 	gorm.io/driver/sqlserver v1.4.1 // indirect
 	gorm.io/hints v1.1.0 // indirect
 	modernc.org/libc v1.22.2 // indirect
